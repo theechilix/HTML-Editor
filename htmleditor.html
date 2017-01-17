@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html manifest="cloudedit.appcache">
-<!--<html>-->
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
@@ -12,7 +10,6 @@
   <meta name="description" content="Test your JavaScript, CSS, HTML or CoffeeScript online with ThreeChilix: HTML Live Editor." />
   <meta name="keywords" content="online javascript editor, testing javascript online, online code playground, online code editor, html, css, javascript" />
 </head>
-
 <body>
   <section>
     <div class="row btnGroup">
@@ -22,11 +19,11 @@
         <button class="btn togglePane" id="jsToggle" data-editor="js" title="Toggle JS">JavaScript</button>
         <button class="btn" id="consoleToggle" title="Toggle JavaScript Console">Console</button>
         <button class="btn btn-active" id="liveEdit" title="Toggle Live Edit Mode">LiveEdit</button>
-      </div><!--
-      --><div class="column-33">
-        <h1>ThreeChilix: HTML Live Editor</h1>
-      </div><!--
-      --><div class="column-33 btnGroup last">
+      </div>
+      <div class="column-33">
+        <h1><img alt='ThreeCilix' height='50' src='https://3.bp.blogspot.com/-wDyapM6jdgI/WHXC8u2FKqI/AAAAAAAABkI/9nV2JsURnOoISKkxkl1FVZzGSHT8ZyqMgCLcB/s1600/footer.png' title='ThreeCilix' width='347'/></h1>
+      </div>
+      <div class="column-33 btnGroup last">
         <button class="btn" id="previewToggle" title="Enlarge Preview">Preview</button>
         <button class="btn" id="clear" title="Click to clear all panes">Clear</button>
         <button class="btn" id="download" title="Download to computer">Download</button>
@@ -41,14 +38,14 @@
           <pre id="html"></pre>
           <span class="windowLabel" id="htmlLabel">HTML</span>
         </div>
-      </div><!--
-      --><div class="column-33">
+      </div>
+      <div class="column-33">
         <div class="window css">
           <pre id="css"></pre>
           <span class="windowLabel" id="cssLabel">CSS</span>
         </div>
-      </div><!--
-      --><div class="column-33">
+      </div>
+      <div class="column-33">
         <div class="window js">
           <pre id="js"></pre>
           <span class="windowLabel" id="jsLabel">JavaScript/jQuery 1.x</span>
@@ -68,7 +65,6 @@
       <span id="iframeClose">x</span>
     </div>
     <footer style='font-size:70%;margin:20px 20px 0;color:#777'>Copyright &#169; <script>document.write((new Date()).getFullYear());</script> <b>ThreeChilix: HTML Live Editor</b> | Created by: <a style="text-decoration:none;color:#777" href='https://github.com/TheInsomniac' target='_blank' title='TheInsomniac'><b>TheInsomniac</b></a> | Developed by: <a style="text-decoration:none;color:#777" title='ThreeChilix' href='//threecilix.blogspot.com/' target='_blank'><b>ThreeChilix</b></a></footer>
-
   </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
@@ -79,5 +75,4 @@
   <script src="js/jqconsole.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/cloudEdit.min.js" type="text/javascript" charset="utf-8"></script>
 </body>
-
 </html>
